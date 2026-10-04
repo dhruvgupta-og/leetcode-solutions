@@ -1,3 +1,12 @@
+//T.C O(n)
+//approch
+//1. declared a stack
+// 2. traverse string if it is char push to stack
+// 3. if not then pop top element 
+// 4. declared ans string push stack top element 
+// 5. reverse the ans string 
+// 6. return ans;
+
 class Solution {
 public:
     string removeStars(string s) {
