@@ -5,11 +5,12 @@ public:
         int need = 0;
         for(int i =0;i<s.size();i++){
             if(s[i]=='('){
-                need +=2;
                 if(need % 2 == 1){
                      ans++;
                      need--;
                   }
+                need +=2;
+                
             }
             else if(s[i]==')'){
                 need --;
